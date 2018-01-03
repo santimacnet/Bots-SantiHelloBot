@@ -21,6 +21,10 @@ namespace SantiHelloBot.Dialogs
             int length = (activity.Text ?? string.Empty).Length;
 
             // return our reply to the user 
+            if (activity.Text.Contains("hello"))
+            {
+                await context.PostAsync("No entiendo el idioma ingles, pero podemos chatear en castellano!!");
+            }
             if (activity.Text.Contains("hola"))
             {
                 await context.PostAsync("Hola Qtal!!");
