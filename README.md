@@ -11,13 +11,13 @@ Aqui dejo un ejemplo  como funciona el Bot Framework Emulator:
 https://santimacnet.wordpress.com/2017/12/22/bots-microsoft-bot-emulator
 
 # Comandos del Bot
-  hello
-  hola
-  adios
-  fecha 
-  hora
-  como te llamas
-  quien eres
+  - hello
+  - hola
+  - adios
+  - fecha 
+  - hora
+  - como te llamas
+  - quien eres
   
 # Captura del  Bot
 
